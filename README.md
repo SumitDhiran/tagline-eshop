@@ -1,4 +1,4 @@
-# taglinne-eshop
+# tagline-eshop
 
 1. create a virtual env and activate it.
 
