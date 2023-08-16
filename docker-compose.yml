@@ -13,6 +13,6 @@ services:
     container_name: tagline-task-container
     command: >
       sh -c   "python manage.py collectstatic &&
-              python manage.py mirate &&
+              python manage.py migrate &&
               gunicorn -c gunicorn.py"
 
